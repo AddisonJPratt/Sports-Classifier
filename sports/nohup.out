@@ -1,0 +1,519 @@
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/delta_generator.py", line 38, in <module>
+    from streamlit import config, cursor, env_util, logger, runtime, type_util, util
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/cursor.py", line 18, in <module>
+    from streamlit.runtime.scriptrunner import get_script_run_ctx
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/__init__.py", line 16, in <module>
+    from streamlit.runtime.runtime import Runtime as Runtime
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/runtime.py", line 26, in <module>
+    from streamlit.proto.BackMsg_pb2 import BackMsg
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/proto/BackMsg_pb2.py", line 5, in <module>
+    from google.protobuf.internal import builder as _builder
+ImportError: cannot import name 'builder' from 'google.protobuf.internal' (/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/google/protobuf/internal/__init__.py)
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/delta_generator.py", line 38, in <module>
+    from streamlit import config, cursor, env_util, logger, runtime, type_util, util
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/cursor.py", line 18, in <module>
+    from streamlit.runtime.scriptrunner import get_script_run_ctx
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/__init__.py", line 16, in <module>
+    from streamlit.runtime.runtime import Runtime as Runtime
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/runtime.py", line 26, in <module>
+    from streamlit.proto.BackMsg_pb2 import BackMsg
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/proto/BackMsg_pb2.py", line 5, in <module>
+    from google.protobuf.internal import builder as _builder
+ImportError: cannot import name 'builder' from 'google.protobuf.internal' (/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/google/protobuf/internal/__init__.py)
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/delta_generator.py", line 38, in <module>
+    from streamlit import config, cursor, env_util, logger, runtime, type_util, util
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/cursor.py", line 18, in <module>
+    from streamlit.runtime.scriptrunner import get_script_run_ctx
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/__init__.py", line 16, in <module>
+    from streamlit.runtime.runtime import Runtime as Runtime
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/runtime.py", line 26, in <module>
+    from streamlit.proto.BackMsg_pb2 import BackMsg
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/proto/BackMsg_pb2.py", line 5, in <module>
+    from google.protobuf.internal import builder as _builder
+ImportError: cannot import name 'builder' from 'google.protobuf.internal' (/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/google/protobuf/internal/__init__.py)
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+2022-12-29 15:29:45.111 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 2, in <module>
+    import tensorflow as tf
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/__init__.py", line 51, in <module>
+    from ._api.v2 import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/__init__.py", line 37, in <module>
+    from . import v1
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/__init__.py", line 30, in <module>
+    from . import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/__init__.py", line 38, in <module>
+    from . import v2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/v2/__init__.py", line 28, in <module>
+    from tensorflow._api.v2.compat.v2 import __internal__
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/__init__.py", line 33, in <module>
+    from . import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/compat/__init__.py", line 38, in <module>
+    from . import v2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/compat/v2/__init__.py", line 328, in <module>
+    from tensorboard.summary._tf import summary
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/summary/__init__.py", line 22, in <module>
+    from tensorboard.summary import v1  # noqa: F401
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/summary/v1.py", line 21, in <module>
+    from tensorboard.plugins.audio import summary as _audio_summary
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/plugins/audio/summary.py", line 34, in <module>
+    from tensorboard.plugins.audio import metadata
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/plugins/audio/metadata.py", line 18, in <module>
+    from tensorboard.compat.proto import summary_pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/summary_pb2.py", line 17, in <module>
+    from tensorboard.compat.proto import tensor_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/tensor_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import resource_handle_pb2 as tensorboard_dot_compat_dot_proto_dot_resource__handle__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/resource_handle_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import tensor_shape_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__shape__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/tensor_shape_pb2.py", line 36, in <module>
+    _descriptor.FieldDescriptor(
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/google/protobuf/descriptor.py", line 560, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+2022-12-29 15:35:10.116 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 2, in <module>
+    import tensorflow as tf
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/__init__.py", line 51, in <module>
+    from ._api.v2 import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/__init__.py", line 37, in <module>
+    from . import v1
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/__init__.py", line 30, in <module>
+    from . import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/__init__.py", line 38, in <module>
+    from . import v2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/v2/__init__.py", line 28, in <module>
+    from tensorflow._api.v2.compat.v2 import __internal__
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/__init__.py", line 33, in <module>
+    from . import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/compat/__init__.py", line 38, in <module>
+    from . import v2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/compat/v2/__init__.py", line 328, in <module>
+    from tensorboard.summary._tf import summary
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/summary/__init__.py", line 22, in <module>
+    from tensorboard.summary import v1  # noqa: F401
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/summary/v1.py", line 21, in <module>
+    from tensorboard.plugins.audio import summary as _audio_summary
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/plugins/audio/summary.py", line 34, in <module>
+    from tensorboard.plugins.audio import metadata
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/plugins/audio/metadata.py", line 18, in <module>
+    from tensorboard.compat.proto import summary_pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/summary_pb2.py", line 17, in <module>
+    from tensorboard.compat.proto import tensor_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/tensor_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import resource_handle_pb2 as tensorboard_dot_compat_dot_proto_dot_resource__handle__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/resource_handle_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import tensor_shape_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__shape__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/tensor_shape_pb2.py", line 36, in <module>
+    _descriptor.FieldDescriptor(
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/google/protobuf/descriptor.py", line 560, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+2022-12-29 15:35:18.300 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 2, in <module>
+    import tensorflow as tf
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/__init__.py", line 51, in <module>
+    from ._api.v2 import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/__init__.py", line 37, in <module>
+    from . import v1
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/__init__.py", line 30, in <module>
+    from . import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/__init__.py", line 38, in <module>
+    from . import v2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/v2/__init__.py", line 28, in <module>
+    from tensorflow._api.v2.compat.v2 import __internal__
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/__init__.py", line 33, in <module>
+    from . import compat
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/compat/__init__.py", line 38, in <module>
+    from . import v2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v2/compat/v2/__init__.py", line 328, in <module>
+    from tensorboard.summary._tf import summary
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/summary/__init__.py", line 22, in <module>
+    from tensorboard.summary import v1  # noqa: F401
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/summary/v1.py", line 21, in <module>
+    from tensorboard.plugins.audio import summary as _audio_summary
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/plugins/audio/summary.py", line 34, in <module>
+    from tensorboard.plugins.audio import metadata
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/plugins/audio/metadata.py", line 18, in <module>
+    from tensorboard.compat.proto import summary_pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/summary_pb2.py", line 17, in <module>
+    from tensorboard.compat.proto import tensor_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/tensor_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import resource_handle_pb2 as tensorboard_dot_compat_dot_proto_dot_resource__handle__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/resource_handle_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import tensor_shape_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__shape__pb2
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorboard/compat/proto/tensor_shape_pb2.py", line 36, in <module>
+    _descriptor.FieldDescriptor(
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/google/protobuf/descriptor.py", line 560, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2022-12-29 15:42:41.644326: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 170ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 109ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 44ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 37ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 36ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2022-12-29 17:56:09.501029: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 158ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 38ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 47ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2022-12-29 17:57:24.793535: W tensorflow/core/framework/op_kernel.cc:1780] OP_REQUIRES failed at conv_ops_fused_impl.h:720 : INVALID_ARGUMENT: input depth must be evenly divisible by filter depth: 4 vs 3
+2022-12-29 17:57:24.803 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 47, in <module>
+    predictions = import_and_predict(image, model)
+  File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 36, in import_and_predict
+    prediction = model.predict(img_reshape)
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'sequential_2/conv2d/Relu' defined at (most recent call last):
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/threading.py", line 973, in _bootstrap
+      self._bootstrap_inner()
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+      self.run()
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/threading.py", line 953, in run
+      self._target(*self._args, **self._kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 299, in _run_script_thread
+      self._run_script(request.rerun_data)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 565, in _run_script
+      exec(code, module.__dict__)
+    File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 47, in <module>
+      predictions = import_and_predict(image, model)
+    File "/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py", line 36, in import_and_predict
+      prediction = model.predict(img_reshape)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/training.py", line 2253, in predict
+      tmp_batch_outputs = self.predict_function(iterator)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/training.py", line 2041, in predict_function
+      return step_function(self, iterator)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/training.py", line 2027, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/training.py", line 2015, in run_step
+      outputs = model.predict_step(data)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/training.py", line 1983, in predict_step
+      return self(x, training=False)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/training.py", line 557, in __call__
+      return super().__call__(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/base_layer.py", line 1097, in __call__
+      outputs = call_fn(inputs, *args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 96, in error_handler
+      return fn(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/sequential.py", line 410, in call
+      return super().call(inputs, training=training, mask=mask)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/functional.py", line 510, in call
+      return self._run_internal_graph(inputs, training=training, mask=mask)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/functional.py", line 667, in _run_internal_graph
+      outputs = node.layer(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/engine/base_layer.py", line 1097, in __call__
+      outputs = call_fn(inputs, *args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 96, in error_handler
+      return fn(*args, **kwargs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/layers/convolutional/base_conv.py", line 314, in call
+      return self.activation(outputs)
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/activations.py", line 317, in relu
+      return backend.relu(
+    File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/keras/backend.py", line 5366, in relu
+      x = tf.nn.relu(x)
+Node: 'sequential_2/conv2d/Relu'
+input depth must be evenly divisible by filter depth: 4 vs 3
+	 [[{{node sequential_2/conv2d/Relu}}]] [Op:__inference_predict_function_1028]
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 48ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2022-12-29 21:25:13.781162: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 174ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2022-12-30 14:45:44.131101: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 139ms/step
+  Stopping...
+Traceback (most recent call last):
+  File "/Users/addisonpratt/miniforge3/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/delta_generator.py", line 38, in <module>
+    from streamlit import config, cursor, env_util, logger, runtime, type_util, util
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/cursor.py", line 18, in <module>
+    from streamlit.runtime.scriptrunner import get_script_run_ctx
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/__init__.py", line 16, in <module>
+    from streamlit.runtime.runtime import Runtime as Runtime
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/runtime.py", line 28, in <module>
+    from streamlit.runtime.app_session import AppSession
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/app_session.py", line 35, in <module>
+    from streamlit.runtime import caching, legacy_caching
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/caching/__init__.py", line 21, in <module>
+    from streamlit.runtime.state.session_state import WidgetMetadata
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/state/__init__.py", line 16, in <module>
+    from streamlit.runtime.state.safe_session_state import (
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/state/safe_session_state.py", line 20, in <module>
+    from streamlit.runtime.state.session_state import (
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/streamlit/runtime/state/session_state.py", line 36, in <module>
+    from pympler.asizeof import asizeof
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/pympler/asizeof.py", line 1363, in <module>
+    import numpy  # NumPy array, matrix, etc.
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/numpy/__init__.py", line 364, in <module>
+    _mac_os_check()
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/numpy/__init__.py", line 357, in _mac_os_check
+    _ = polyfit(x, y, 2, cov=True)
+  File "<__array_function__ internals>", line 180, in polyfit
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/numpy/lib/polynomial.py", line 679, in polyfit
+    Vbase = inv(dot(lhs.T, lhs))
+  File "<__array_function__ internals>", line 180, in inv
+  File "/Users/addisonpratt/miniforge3/lib/python3.10/site-packages/numpy/linalg/linalg.py", line 552, in inv
+    ainv = _umath_linalg.inv(a, signature=signature, extobj=extobj)
+KeyboardInterrupt
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.100:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2022-12-31 14:35:44.315716: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 144ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 44ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 47ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 35ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.1.0.218:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2023-01-03 12:07:16.551370: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 146ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 37ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 38ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.15.31.2:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2023-01-05 08:29:56.904397: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 136ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 44ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 37ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.15.31.2:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2023-01-05 08:38:11.949882: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 140ms/step
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.15.31.2:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2023-01-05 09:10:09.213181: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 128ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 45ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 47ms/step
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 41ms/step
+  Stopping...
