@@ -517,3 +517,19 @@ KeyboardInterrupt
   image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
 1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 41ms/step
   Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.15.31.2:8501
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/addisonpratt/Desktop/Sports Classifier/sports/app.py:33: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.LANCZOS instead.
+  image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
+2023-01-09 11:25:22.020159: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 129ms/step
+  Stopping...
