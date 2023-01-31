@@ -1,10 +1,6 @@
 import streamlit as st
 import tensorflow as tf
 
-from tensorflow.keras import models, layers
-import matplotlib.pyplot as plt
-import numpy as np
-
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 
